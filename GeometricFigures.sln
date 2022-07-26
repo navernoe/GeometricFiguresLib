@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricFigures", "GeometricFigures\GeometricFigures.csproj", "{5E9D7E6C-C466-4E44-9CBB-6AC734604C48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0729252C-6348-4E26-8919-6740ED42277A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricFiguresUnitTests", "GeometricFiguresUnitTests\GeometricFiguresUnitTests.csproj", "{426D74AF-0156-4AFD-9163-3FDA77BBE0F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E9D7E6C-C466-4E44-9CBB-6AC734604C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9D7E6C-C466-4E44-9CBB-6AC734604C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9D7E6C-C466-4E44-9CBB-6AC734604C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9D7E6C-C466-4E44-9CBB-6AC734604C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426D74AF-0156-4AFD-9163-3FDA77BBE0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426D74AF-0156-4AFD-9163-3FDA77BBE0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426D74AF-0156-4AFD-9163-3FDA77BBE0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426D74AF-0156-4AFD-9163-3FDA77BBE0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{426D74AF-0156-4AFD-9163-3FDA77BBE0F1} = {0729252C-6348-4E26-8919-6740ED42277A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0DC695D-5F06-4E41-B7B4-7FE03C8ECCFC}
+	EndGlobalSection
+EndGlobal
